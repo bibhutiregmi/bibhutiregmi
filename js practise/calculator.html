@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>calculator</title>
+</head>
+<body>
+	<form>
+		number 1:
+		<input type = "text" id = "num1"><br>
+		number 2: 
+		<input type = "number" id = "num2">
+		
+	</form>
+	<button type = "button" value="calculate" onclick="Calculator()">calculate</button>
+
+	<script type="text/javascript">
+	function Calculator(){
+		var first_num  =document.getElementById("num1").value ;
+		var second_num  =document.getElementById("num2").value;
+		var cButton =document.getElementById("calculate");
+		alert(parseInt(first_num) + parseInt(second_num));
+	}
+	</script>
+
+</body>
+</html>
