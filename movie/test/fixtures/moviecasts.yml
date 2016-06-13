@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  movieid: 1
+  castid: MyString
+  integer: MyString
+  film_id: 
+
+two:
+  movieid: 1
+  castid: MyString
+  integer: MyString
+  film_id: 

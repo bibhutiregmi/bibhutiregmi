@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sex: MyText
+  name: MyText
+  age: 1
+  cast_id: 
+
+two:
+  sex: MyText
+  name: MyText
+  age: 1
+  cast_id: 
