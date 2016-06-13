@@ -5,5 +5,8 @@ class Film < ActiveRecord::Base
   validates :genre, presence: true
   validates :rating, presence: true, inclusion: {in: 1..5}
   validates :duration, presence: true, inclusion: {in: 1..5}
-
+  before_create :set_uid
+		def set_uid
+			self.uid = rand(1..999999)
+		end
 end
